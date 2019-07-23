@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<meta name="description" content="Would You Rather? - A fucked up game">
+		<meta name="keywords" content="game, questions, drinking, twisted">
+		
+		<title>Would You Rather?</title>
+
+<!--- external CSS link ---> 
+
+		<link rel="stylesheet" href="style.css">
+
+		<script>
+
+			//list of part 1
+			const q1 = [
+				'Have no taste buds',
+				'Watch your parents having sex every day for the rest of your life',
+				'Dye your hair neon green for the rest of your life',
+				'Receive a sext from your mom&#47dad',
+				'Get a paper cut between your fingers every time you touch paper',
+				'Always feel like you &#39re about to sneeze but can&#39t',
+				'Have to use sandpaper as toilet paper',
+				'Have tastebuds on your butthole',
+				'Pee yourself in public once a week',
+				'Smell like poop and not know it',
+				'Pry off your thumbnail with a fork',
+				'Get diarrhea every time you laugh',
+				'Give up your favorite food for the rest of your life'
+				];
+
+
+				//list of part 2
+				const q2 = [
+				'Go blind',
+				'Have sex with your parents',
+				'Only have one eyebrow',
+				'Send a sext to your mom&#47dad',
+				'Bite your tongue every time you eat something',
+				'Have the hiccups for the rest of your life',
+				'Have to use hot sauce as eye drops',
+				'Poop through your mouth',
+				'Shit your pants in private every day',
+				'Constantly smell poop that no one can smell',
+				'Put a toothpick under your big toenail and kick a wall',
+				'Throw up everytime someone says your name',
+				'Give up oral sex for the rest of your life'
+				];
+				
+
+			
+
+				const randomQuestion = [Math.floor(Math.random() * q1.length)];
+				const randomAnswer = [Math.floor(Math.random() * q2.length)];
+
+				const x = q1[randomQuestion];
+				const y = q2[randomAnswer];
+
+				document.write("<h1> Would you rather...<br><div> </h1>" + x + " <div>OR<br></div> " + y + "?<br>");
+
+				
+
+
+		
+
+
+
+		</script>
+<body>
+	
+</body>
+
+	</head>	
+
+</html>
+	
